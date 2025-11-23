@@ -91,7 +91,7 @@ def get_top_phrases(headlines, top_n=10):
 def main():
     # ★ 언론사별 설정
     #   - tag, class_name은 015에서 이미 잘 되는 값 기준으로 두고
-    #   - 009, 021도 같은 템플릿일 가능성이 높지만
+    #   - 009, 011도 같은 템플릿일 가능성이 높지만
     #     만약 0개 나오면 F12로 구조 확인해서 수정해주면 됨.
     PRESS_CONFIGS = [
         {
@@ -152,3 +152,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
